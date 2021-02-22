@@ -39,7 +39,7 @@ const getWeather = async (city) => {
 
  
   /* If Redis returns a cache miss, fetch and return data from the API */
-	let apiResponse = await axios.get(cityEndpoint(city))
+	const apiResponse = await axios.get(cityEndpoint(city))
 	
   /* Add the entry to Redis for next time and set an expiry of one hour */
   redis.set(`weather:${city}`, JSON.stringify(apiResponse.data), 'EX', 3600)
@@ -50,7 +50,7 @@ const getWeather = async (city) => {
 
 const city = 'Oakland'
 const t0 = new Date().getTime()
-let weather = await getWeather(city)
+const weather = await getWeather(city)
 const t1 = new Date().getTime()
 weather.responseTime = `${t1-t0}ms`
 console.log(weather)
