@@ -13,7 +13,7 @@ Simple API caching example with Redis!
 Clone the repository to your computer:
 
 ```bash
-git clone https://github.com/redislabs-training/caching
+git clone https://github.com/redislabs-developer/redis-caching-api-responses
 ```
 
 Install dependencies:
