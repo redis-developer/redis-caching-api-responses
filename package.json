@@ -1,0 +1,16 @@
+{
+  "name": "api_caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ioredis": "^4.22.0"
+  },
+  "type": "module"
+}
