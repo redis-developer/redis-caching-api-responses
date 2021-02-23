@@ -1,5 +1,8 @@
 # Caching
-Simple API caching example with Redis!
+Simple API caching example with Redis!  This repository is based on the video [Caching API Responses with Redis](https://youtu.be/hRecenOBYlE). For further information on caching, check out these videos as well:
+
+- [What is Caching?](https://youtu.be/NCnVw7ew9do)
+- [Caching Slow Database Queries](https://youtu.be/Ph4W3pWA3eY)
 
 ## Prerequisites
 - Node.js
